@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="C:\Users\ANUBHASA\Desktop\Js Development\SLDS\assets\styles\salesforce-lightning-design-system.min.css"
+    />
+    <title>Guess Game Layout</title>
+  </head>
+  <body>
+    <div
+      style="font-weight: bold"
+      class="slds-text-heading_medium slds-align_absolute-center slds-box slds-box_small slds-m-bottom_x-small slds-m-top_x-small"
+    >
+      Guess Game !!
+    </div>
+    <div class="slds-grid">
+      <div class="slds-col">
+        <div style="font-weight: bold" class="slds-align_absolute-center">
+          Enter Number
+        </div>
+        <div
+          class="slds-m-bottom_x-small slds-m-top_x-small slds-p-horizontal_xx-large slds-p-bottom_large"
+        >
+          <input
+            type="number"
+            id="text-input-id-47"
+            placeholder="Enter the Number"
+            class="slds-input number"
+          />
+        </div>
+        <div class="slds-grid">
+          <div class="slds-col">
+            <button
+              class="slds-button slds-button_brand slds-align_absolute-center slds-p-horizontal_xx-large check"
+            >
+              Check!!
+            </button>
+          </div>
+          <div
+            style="background: rgba(255, 255, 255, 0.568); font-weight: bold"
+            class="slds-col"
+          >
+            <div class="slds-align_absolute-center random-number">?</div>
+          </div>
+          <div class="slds-col">
+            <button
+              class="slds-button slds-button_outline-brand slds-align_absolute-center slds-p-horizontal_xx-large"
+            >
+              Refresh
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slds-col">
+        <div style="font-weight: bold" class="slds-align_absolute-center">
+          Scores
+        </div>
+        <div style="font-weight: bold" class="slds-align_absolute-center hints">
+          Start Guessing!!
+        </div>
+        <div style="font-weight: bold" class="slds-p-left_large">
+          Current Score : <span class="current-score">20</span>
+        </div>
+        <div style="font-weight: bold" class="slds-p-left_large">
+          High Score : <span class="high-score">0</span>
+        </div>
+        <div class="slds-align_absolute-center">
+          <button
+            class="slds-button slds-button_text-destructive slds-button_success play-again"
+          >
+            Play Again!!
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="slds-align_absolute-center slds-m-top_x-large">
+      <div>
+        <img
+          src="https://trailhead.salesforce.com/trailblazer-community/download/file/0694S000001svd0QAA/preview"
+          height="200"
+          width="200"
+          style="border-radius: 20%"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="guessingGame.js"></script>
+</html>
