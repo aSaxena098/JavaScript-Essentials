@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html style="background-color: #352f5b" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="C:\Users\ANUBHASA\Desktop\Js Development\SLDS\assets\styles\salesforce-lightning-design-system.min.css"
+    />
+    <title>Note App</title>
+  </head>
+  <body>
+    <h1
+      style="font-weight: bold; color: white"
+      class="slds-text-heading_large slds-align_absolute-center slds-m-vertical_x-small"
+    >
+      Notion 📘
+    </h1>
+    <div
+      style="font-weight: bold; background-color: #352f5b; border-width: medium;border-color: black;"
+      class="conatiner slds-card slds-m-horizontal_xx-large slds-m-bottom_xx-large"
+    >
+      <p
+        style="color: White"
+        class="slds-m-bottom_small slds-m-left_medium slds-m-top_small slds-text-heading_large"
+      >
+        Add Notes...
+      </p>
+      <div
+        class="slds-form-element slds-m-horizontal_xx-large slds-m-bottom_large"
+      >
+        <textarea
+          style="background: rgba(0, 0, 0, 0.2);color: white;"
+          id="textarea-id-01"
+          placeholder="Write the notes"
+          class="slds-textarea notetext"
+        ></textarea>
+      </div>
+      <button
+        class="slds-button slds-button_brand slds-m-horizontal_xx-large slds-m-bottom_small addbtn"
+      >
+        Add Note
+      </button>
+    </div>
+
+    <div class="slds-grid slds-wrap noteCard">
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
